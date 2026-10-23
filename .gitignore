@@ -1,0 +1,12 @@
+# Raw page snapshots may include account/course identifiers and are never tracked.
+diagnostics/snapshots/
+diagnostics/notes/
+reference/
+
+# Local exports and browser artifacts
+*.log
+*.har
+*.zip
+.DS_Store
+Thumbs.db
+

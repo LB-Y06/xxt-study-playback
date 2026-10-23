@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">学习页面播放助手</title>
+  <desc id="desc">深青色背景上的播放进度、页面结构和诊断节点示意</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102923"/>
+      <stop offset="1" stop-color="#07130f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c29c5d"/>
+      <stop offset="1" stop-color="#668477"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#9bb5a7">
+    <path d="M0 80H1280M0 180H1280M0 280H1280M0 380H1280"/>
+    <path d="M200 0V420M500 0V420M800 0V420M1100 0V420"/>
+  </g>
+  <circle cx="1010" cy="208" r="138" fill="#456e5d" opacity=".22" filter="url(#glow)"/>
+  <circle cx="1010" cy="208" r="126" fill="none" stroke="#789688" stroke-opacity=".24"/>
+  <circle cx="1010" cy="208" r="98" fill="none" stroke="#789688" stroke-opacity=".16" stroke-dasharray="5 8"/>
+  <path d="M970 171L1070 208L970 245Z" fill="#d2aa66" opacity=".88"/>
+  <text x="78" y="128" fill="#f1eadc" font-family="Microsoft YaHei, sans-serif" font-size="58" font-weight="700" letter-spacing="5">学习页面播放助手</text>
+  <text x="82" y="178" fill="#9eb4a8" font-family="Microsoft YaHei, sans-serif" font-size="23">播放状态检测 · iframe 诊断 · 配置化原型</text>
+  <path d="M82 238H650" stroke="url(#line)" stroke-width="2"/>
+  <g fill="#b7c8be" font-family="Microsoft YaHei, sans-serif" font-size="18">
+    <circle cx="90" cy="286" r="5" fill="#d2aa66"/>
+    <text x="108" y="292">视频元素定位</text>
+    <circle cx="286" cy="286" r="5" fill="#d2aa66"/>
+    <text x="304" y="292">卡顿检测</text>
+    <circle cx="450" cy="286" r="5" fill="#d2aa66"/>
+    <text x="468" y="292">目录诊断</text>
+    <circle cx="620" cy="286" r="5" fill="#d2aa66"/>
+    <text x="638" y="292">配置分离</text>
+  </g>
+  <text x="82" y="354" fill="#60776b" font-family="Consolas, monospace" font-size="16" letter-spacing="3">TAMPERMONKEY  /  JAVASCRIPT  /  PRIVATE ARCHIVE</text>
+</svg>

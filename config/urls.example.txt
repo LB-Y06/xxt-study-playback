@@ -1,0 +1,4 @@
+# 每行粘贴一个你有权访问的课程页面地址。
+# 不要把真实链接、enc、cpi、p_auth_token 或个人账号信息提交到 Git。
+https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=YOUR_CHAPTER_ID&courseId=YOUR_COURSE_ID&clazzid=YOUR_CLASS_ID&cpi=YOUR_CPI&enc=YOUR_ENC
+
